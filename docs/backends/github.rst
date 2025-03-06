@@ -11,7 +11,7 @@ GitHub works similar to Facebook (OAuth).
     )
 
 - Register a new application at `GitHub Developers`_, set the callback URL to
-  ``http://example.com/complete/github/`` replacing ``example.com`` with your
+  ``http://example.com/oauth/complete/github/`` replacing ``example.com`` with your
   domain. This will generate a Client Key and a Client Secret.
 
 - Add these values of ``Client ID`` and ``Client Secret`` from GitHub in your project settings file.
@@ -89,7 +89,7 @@ applications there are two primary workflows:
   ``https://github.com/organizations/python-social-auth/settings/apps/new``
 
 - Set ``User authorization callback URL`` to
-  ``http://example.com/complete/github/`` replacing ``example.com`` with your
+  ``http://example.com/oauth/complete/github/`` replacing ``example.com`` with your
   domain.
 
 - Turn on ``Request user authorization (OAuth) during installation`` if
